@@ -5,4 +5,6 @@ python3 -m twine upload dist/*
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository#mirroring-a-repository
 
 ### To publish, use following `cmd`
-  python3 -m twine upload dist/*`
+  ```bat
+  python3 -m twine upload dist/*
+  ```
