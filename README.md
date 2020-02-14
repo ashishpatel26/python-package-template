@@ -13,3 +13,6 @@ python3 setup.py sdist bdist_wheel
 ```bat
 python3 -m twine upload dist/*
 ```
+
+### For general instruction on `PyPi` pusblish, check the python official doc link below
+https://packaging.python.org/tutorials/packaging-projects/
