@@ -11,7 +11,7 @@ python3 setup.py sdist bdist_wheel
 
 ### To publish, use following `cmd`
 ```bat
-python3 -m twine upload dist/*
+python -m twine upload dist/*
 ```
 
 ### For general instruction on `PyPi` pusblish, check the python official doc link below
