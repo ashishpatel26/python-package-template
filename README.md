@@ -4,7 +4,12 @@ python3 -m twine upload dist/*
 ### To start, mirror-clone this repo
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository#mirroring-a-repository
 
+### Before publish, build use following `cmd`
+```bat
+python3 setup.py sdist bdist_wheel
+```
+
 ### To publish, use following `cmd`
-  ```bat
-  python3 -m twine upload dist/*
-  ```
+```bat
+python3 -m twine upload dist/*
+```
